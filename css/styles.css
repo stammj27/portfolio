@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two|Play&display=swap');
+/* font-family: 'Righteous', cursive;
+font-family: 'Play', sans-serif; */
 body {
-    bgc: #aaa
+    background-color: #CCC;
 }
 /* Nav */
 nav h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-top: auto;
     color: #85FF9E;
     text-shadow: 1px 1px 3px #000;
+    font-family: 'Lobster Two', cursive;
 }
 .navbar {
     background-color: #999;
@@ -23,39 +27,6 @@ nav h1 {
     color: #FFF;
 }
 /* Hero */
-.hero {
-    animation: rotation 300s infinite linear;
-}
-/* Portfolio */
-#portfolio h2{
-    color: #070;
-}
-#portfolio h3 {
-    margin: auto;
-    color: #fff;
-    text-decoration: none;
-    border: 1px solid #000;
-    border-radius: 20px;
-    margin: auto;
-    margin-top: 1rem;
-    height: 3rem;
-    width: 12rem;
-    background-color: #050;
-    font-size: 2rem;
-    font-family:"Impact", sans-serif;
-    text-shadow: 1px 1px 5px #000
-}
-#portfolio h3:hover{
-    background-color: #0a0;
-}
-
-
-
-
-
-
-
-
 @keyframes rotation {
     from {
       transform: rotate(0deg);
@@ -64,3 +35,24 @@ nav h1 {
       transform: rotate(359deg);
     }
   }
+.hero {
+    animation: rotation 10000s infinite linear;
+}
+/* Portfolio */
+#portfolio h2{
+    color: #070;
+    border-bottom: 2px solid #030;
+    width:120rem;
+    margin:auto;
+}
+.btn-primary {
+    font-family:"Play", sans-serif;
+    color:#fff;
+    background-color:#070;
+    border-color: #050;
+}
+#portfolio p {
+    font-family:"Play", sans-serif;
+    color: #050;
+    text-shadow: 1px 1px 3px #030;
+}
