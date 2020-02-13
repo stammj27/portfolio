@@ -17,13 +17,14 @@ nav h1 {
 }
 #mynav ul>li {
     background-color: #050;
+    color:#777
 }
 #mynav .active>a{
     background-color: #070;
-    color: #FFF;
+    color: #AAA;
 }
 #mynav ul>li>a:hover{
-    background-color: #0a0;
+    background-color: #090;
     color: #FFF;
 }
 /* Hero */
@@ -44,6 +45,7 @@ nav h1 {
     border-bottom: 2px solid #030;
     width:120rem;
     margin:auto;
+    margin-bottom:20px;
 }
 .btn-primary {
     font-family:"Play", sans-serif;
