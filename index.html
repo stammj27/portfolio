@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
+    <link rel="shortcut icon" href="img/prologo.ico">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -29,6 +30,7 @@
                     <li class="active"><a href="#home">Home<span class="sr-only">(current)</span></a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#resume">Resume</a></li>
+                    <li><a href="#mycarousel">Pictures</a></li>
                 </ul>
             </div>
         </div>
@@ -39,18 +41,93 @@
       <img src="img/prologo.png" alt="" class="img-responsive center-block hero">
     </div>
     <!-- Beginning of Web Design Portfolio -->
-    <div id="portfolio">
+    <div class="container-fluid" id="portfolio">
       <h2 class="text-center partial-border">Portfolio</h2>
-        <a href="#"><div class="text-center"><button class="btn btn-primary">Wrassle Buds</button></div></a>
-        <p class="text-center">A Website for me and my sister's wrestling podcast.</p>
-        <a href="#"><div class="text-center"><button class="btn btn-primary">Game Bois 2.0</button></div></a>
-        <p class="text-center">A Website for me and my friend's gaming youtube channel.</p>
-        <a href="#"><div class="text-center"><button class="btn btn-primary">Restaurante</button></div></a>
-        <p class="text-center">A Website that was made in class</p>
+        <div class="row">
+            <div class="col-xs-12 col-sm-4"><a href="#"><div class="text-center"><button class="btn btn-primary">Wrassle Buds</button></div></a></div>
+            <div class="col-xs-12 col-sm-4"><a href="#"><div class="text-center"><button class="btn btn-primary">Game Bois 2.0</button></div></a></div>
+            <div class="col-xs-12 col-sm-4"><a href="#"><div class="text-center"><button class="btn btn-primary">Restaurante</button></div></a></div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 text-center"><p>A Website for me and my sister's wrestling podcast.</p></div>
+            <div class="col-xs-12 col-sm-4 text-center"><p>A Website for me and my friend's gaming youtube channel.</p></div>
+            <div class="col-xs-12 col-sm-4 text-center"><p>A Website that was made in class</p></div>
+        </div>
     </div>    <!-- End of Web Design Portfolio -->
     <!-- Beginning of Resume -->
-    RESUME
+    <div class="container" id="resume">
+        <row>
+            <h2 class="text-center">Resume</h2>
+                <div class="col-xs-12 col-sm-6">
+                    <h3>Experience</h3>
+                        <ul>
+                            <li>6 years, Personal Assistant, Primo Property Maintenance</li>
+                            <li>2 years, Commercial Property Manager, Central City Properties</li>
+                            <li>5 years, Clown, GB Industries</li>
+                            <li>3 years, Web Community Admin, GB Industries</li>
+                        </ul>
+                    <h3>Skills</h3>
+                        <ul>
+                            <li>Formerly Liscensed General Contractor &#40Electrical, Plumbing, Woodworking, Welding, Landscaping&#41</li>
+                            <li>Liscensed Clown &#40Miming, Jester&#41 </li>
+                            <li>Adaptability and Problem Solving</li>
+                            <li>Critical Thinking and Creativity</li>
+                        </ul>
+                    <h3>Extracurricular</h3>
+                    <ul>
+                        <li>Xbox and PC Gaming</li>
+                        <li>LARPing</li>
+                        <li>Wrestling</li>
+                        <li>Clowning</li>
+                    </ul>
+                </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <img src="img/gloriousboy.jpg" alt="Jacob Stamm" class="img-responsive">
+                    </div>
+        </row>
+    </div>
     <!-- End of Resume -->
+    <!-- Beginning of Carousel -->
+    <div id="mycarousel">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+          
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div id="carouselimg1" class="item active">
+                <div class="carousel-caption">
+                  <h2>Attractive</h2>
+                </div>
+              </div>
+              <div id="carouselimg2" class="item carouselimage">
+                <div class="carousel-caption">
+                  <h2>Creative</h2>
+                </div>
+              </div>
+              <div id="carouselimg3" class="item carouselimage">
+                <div class="carousel-caption">
+                  <h2>Fun</h2>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </div>
+    <!-- End of Carousel -->
     <!-- Beginning of Footer -->
     FOOTER
     <!-- End of Footer

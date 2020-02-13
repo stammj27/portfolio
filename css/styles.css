@@ -43,7 +43,7 @@ nav h1 {
 #portfolio h2{
     color: #070;
     border-bottom: 2px solid #030;
-    width:120rem;
+    width:80%;
     margin:auto;
     margin-bottom:20px;
 }
@@ -55,6 +55,60 @@ nav h1 {
 }
 #portfolio p {
     font-family:"Play", sans-serif;
+    text-align: center;
     color: #050;
     text-shadow: 1px 1px 3px #030;
+}
+/* Resume */
+#resume h2 {
+    color: #070;
+    border-bottom: 2px solid #030;
+    border-top: 2px solid #030;
+    width:80%;
+    margin:auto;
+    margin-bottom:20px;
+    
+}
+#resume h3 {
+    color: #050;
+}
+#resume p {
+    color: #030;
+}
+#resume img {
+    border: 3px inset #0a0;
+}
+/* Carousel */
+#mycarousel {
+    background-color: #020;
+}
+.item{
+    height: 100vh;
+}
+.carouselimage {
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+#carouselimg1{
+    background-image: url("../img/glasses.jpg");
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+#carouselimg2{
+    background-image: url("../img/glowup.jpg");
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+#carouselimg3{
+    background-image: url("../img/wrasslebudz.jpg");
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+#mycarousel h2{
+    color: #0a0;
+    text-shadow: 1px 1px 1px #000;
 }
