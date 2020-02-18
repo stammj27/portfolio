@@ -27,6 +27,10 @@ nav h1 {
     background-color: #090;
     color: #FFF;
 }
+#mynav a {
+    text-decoration: none;
+    color: #fff;
+}
 /* Hero */
 @keyframes rotation {
     from {
