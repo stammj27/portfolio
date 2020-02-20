@@ -41,7 +41,7 @@ nav h1 {
     }
   }
 .hero {
-    animation: rotation 10000s infinite linear;
+    animation: rotation 30s infinite linear;
 }
 /* Portfolio */
 #portfolio h2{
